@@ -1,17 +1,19 @@
 {
   "files": [
-    "./src/__tests__/loopBackwards.test.js",
     "./src/index.js",
     "./src/loopBackwards.js",
   ],
   "compilerOptions": {
-    "noEmit": true,
     "allowJs": true,
     "checkJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true,
     "strict": true,
+    "outDir": "tsc",
+    "declarationMap": true,
     "module": "NodeNext",
     "target": "ES2017"
   }

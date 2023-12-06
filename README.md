@@ -7,6 +7,10 @@ pnpm add @feelinglovelynow/loop-backwards
 ```
 
 
+## 🤓 Unit Tests
+![Statements](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg?style=flat)
+
+
 ## 🙏 Description
 Loop an array backwards! Give loopBackwards() an array and a callback. Calback provides the current item, a splice function, and the current index. Splice function removes item from the array. If the splice function is called & the current item is a DOM element the item is removed from the array & the item is removed from the DOM
 
